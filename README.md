@@ -32,7 +32,7 @@ You know how **8 bits = 1 byte**?
 Well, obviously **8 rabbits = 1 Rabbyte**. 🐇×8 = 🧠
 
 `Rabbyte` is a deeply serious scientific tool that scans your system dictionary
-(`/usr/share/dict/words`) and finds every word ending in **"bit"** — because every
+(`/usr/share/dict/words`) and finds every word ending in **"bit"**  because every
 word ending in "bit" is clearly a rabbit in disguise. Then it converts each one
 into its byte-aligned equivalent: the trailing `bit` becomes `byte`.
 
@@ -64,7 +64,7 @@ terminal it looks *fabulous*.)
 At the end you get the harvest report:
 
 ```
-✨ Scan complete — the hutch has been harvested! ✨
+✨ Scan complete the hutch has been harvested! ✨
 Hopped through 148,279 words in 148.3ms and produced 4 Rabbytes (1 Rabbyte = 8 rabbits, obviously).
 ```
 
@@ -76,7 +76,7 @@ You need a Rust toolchain — grab it via [rustup](https://rustup.rs) if you
 don't have it, then:
 
 ```bash
-git clone https://github.com/your-name/Rabbyte.git
+git clone https://github.com/packetedition/Rabbyte.git
 cd Rabbyte
 cargo build --release
 ```
@@ -106,7 +106,7 @@ hops through every word, and prints one glorious line per rabbit discovered.
   - Alpine: `sudo apk add words`
 
 If the file is missing, Rabbyte prints a friendly error (with these exact
-instructions) and exits — no crashes, just a sad empty hutch.
+instructions) and exits no crashes, just a sad empty hutch.
 
 ## How It Works
 
@@ -127,7 +127,7 @@ A: It is *byte*-fully useful.
 A: `/usr/share/dict/words`. They live between `raa` and `rabbinical`.
 
 **Q: Can I run it on macOS/Windows?**
-A: You *could* try, but there's no `/usr/share/dict/words` there — the rabbits
+A: You *could* try, but there's no `/usr/share/dict/words` there the rabbits
 refuse to travel. Install the dictionary, symlink it to that path, and the
 bunnies might forgive you. Or just use Linux, like nature intended.
 
@@ -137,4 +137,4 @@ religiously.
 
 ## License
 
-MIT — do whatever you want, the rabbits are free-range. 🐇🐇🐇🐇🐇🐇🐇🐇 = 1 Rabbyte.
+MIT do whatever you want, the rabbits are free-range. 🐇🐇🐇🐇🐇🐇🐇🐇 = 1 Rabbyte.
